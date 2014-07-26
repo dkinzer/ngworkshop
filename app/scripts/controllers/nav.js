@@ -6,11 +6,16 @@ angular.module( 'libertyjsApp' ).controller( 'NavCtrl',
       {
         'title': 'Home',
         'link': '#/'
+      },
+
+      {
+        'title': 'About',
+        'link': '#/about'
       }
     ];
 
     $scope.isActive = function( route ) {
-      return route === $location.path();
+      return route === "#" + $location.path();
     };
   }
 );
