@@ -1,4 +1,4 @@
-angular.module( 'libertyjsApp' ).controller( 'NavCtrl', 
+angular.module( 'libertyjsApp' ).controller( 'NavCtrl',
   function ( $scope, $location ) {
 
     //TODO: ADD THE ABOUT PAGE
@@ -14,5 +14,3 @@ angular.module( 'libertyjsApp' ).controller( 'NavCtrl',
     };
   }
 );
-
-

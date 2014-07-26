@@ -1,1 +1,4 @@
-//TODO: ADD THE ABOUT CONTROLLER HERE
+angular.module( 'libertyjsApp' ).controller( 'AboutCtrl',
+  function ( $scope ) {
+  }
+);
